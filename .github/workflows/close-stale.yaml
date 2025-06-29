@@ -4,6 +4,7 @@ on:
     - cron: "40 3 * * *" # Run daily at 3:40 AM
 
 permissions:
+  contents: read
   issues: write
   pull-requests: write
 
